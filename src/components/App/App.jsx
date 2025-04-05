@@ -1,5 +1,5 @@
 import ContactList from "../ContactList/ContactList";
-import SearchBar from "../SearchBar/SearchBar";
+import SearchBox from "../SearchBox/SearchBox";
 import ContactForm from "../ContactForm/ContactForm";
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
     <>
       <h1>Phonebook</h1>
       <ContactForm></ContactForm>
-      <SearchBar></SearchBar>
+      <SearchBox></SearchBox>
       <ContactList></ContactList>
     </>
   );
